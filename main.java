@@ -41,10 +41,10 @@ public class Calculadora {
 					System.out.println("La respuesta de la resta es: " + sub(a,b));
 	            	break;
 				case(3):
-					System.out.println();
+					System.out.println("La respuesta de la multiplicacion es: " + mul(a,b));
 	            	break;
 				case(4):
-					System.out.println();
+					System.out.println("La respuesta de la division es: " + div(a,b));
 	            	break;
 				case(5):
 					System.out.println();
@@ -59,10 +59,10 @@ public class Calculadora {
 	    return a - b;
 	}
 	public static int mul(int a, int b) {    
-	    return ;
+	    return a*b;
 	}
 	public static int div(int a, int b) {
-	    return ;
+	    return a/b;
 	}
 	public static int mod(int a, int b) {
 		return ;
