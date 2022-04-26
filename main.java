@@ -59,12 +59,12 @@ public class Calculadora {
 	    return a - b;
 	}
 	public static int mul(int a, int b) {    
-	    return a * b;
+	    return ;
 	}
 	public static int div(int a, int b) {
-	    return a/b;
+	    return ;
 	}
 	public static int mod(int a, int b) {
-		return a%b;
+		return ;
 	}
 }
