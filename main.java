@@ -47,7 +47,7 @@ public class Calculadora {
 					System.out.println("La respuesta de la division es: " + div(a,b));
 	            			break;
 				case(5):
-					System.out.println("La respuesta de modulo es: " + mod(a,b));
+					System.out.println();
 	            			break;
 			}
 		}
@@ -65,6 +65,6 @@ public class Calculadora {
 	    return a/b;
 	}
 	public static int mod(int a, int b) {
-	    return a%b ;
+	    return null ;
 	}
 }
