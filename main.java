@@ -36,24 +36,24 @@ public class Calculadora {
 			
 				case(1):
 					System.out.println("La respuesta de la suma es: " + add(a,b));
-	            	break;
+	            			break;
 				case(2):
 					System.out.println("La respuesta de la resta es: " + sub(a,b));
-	            	break;
+	            			break;
 				case(3):
 					System.out.println("La respuesta de la multiplicacion es: " + mul(a,b));
-	            	break;
+	            			break;
 				case(4):
 					System.out.println("La respuesta de la division es: " + div(a,b));
-	            	break;
+	            			break;
 				case(5):
 					System.out.println("La respuesta de modulo es: " + mod(a,b));
-	            	break;
+	            			break;
 			}
 		}
     }
 	public static int add(int a, int b) {
-		return a + b;
+	    return a + b;
 	}
 	public static int sub(int a, int b) {
 	    return a - b;
@@ -65,6 +65,6 @@ public class Calculadora {
 	    return a/b;
 	}
 	public static int mod(int a, int b) {
-		return a%b ;
+	    return a%b ;
 	}
 }
